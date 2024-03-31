@@ -15,6 +15,6 @@ function generateFormattedDate(format) {
   return new Intl.DateTimeFormat('en-US', options).format(currentDate);
 }
 module.exports = {
-    hello,
+    index,
     generateFormattedDate
 }
